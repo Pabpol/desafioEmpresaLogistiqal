@@ -1,0 +1,1 @@
+web: java -jar ./target/desafioBibliotecaBooklet-0.0.1.war
