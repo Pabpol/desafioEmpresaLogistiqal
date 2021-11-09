@@ -18,9 +18,9 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(unique = true, nullable = false)
-	private int id;
+	private Integer id;
 	private String productName;
-	private int price;
-	private int stock;
+	private Integer price;
+	private Integer stock;
 	
 }
